@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Assets/bg_img.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(10px); 
+}
+
+
+.game_area{
+    width: 600px;
+    height: 700px;
+    background-image: url('Assets/game_area.jpg');
+    overflow: hidden;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.player{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 540px;
+    left: 0;
+    
+}
+
+.player_img{
+    width: 100px;
+    height: auto;       
+}
+
+.alien{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0;
+     
+}
+
+.alien_img{
+    width: 100px;
+    height: auto;
+}
+
+.bullet{
+    width: 20px;
+    height: auto;
+    top: 370px;
+    position: absolute;
+    left: 0;
+}
+
+.bullet_img{
+    width: 100px;
+    height: auto;
+    
+}
